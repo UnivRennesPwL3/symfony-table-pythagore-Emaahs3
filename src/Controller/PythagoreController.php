@@ -9,6 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+
 class PythagoreController extends AbstractController
 {
     private $pythagoreUtility;
@@ -36,7 +37,7 @@ class PythagoreController extends AbstractController
 
         return $this->render('displayPythagore.html.twig', [
             'tableHtml' => $tableHtml,
-            'name' => 'AHOSSI ESther',
+            'name' => 'AHOSSI ESther Merveille',
         ]);
     }
 }
