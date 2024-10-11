@@ -37,7 +37,7 @@ class PythagoreController extends AbstractController
 
         return $this->render('displayPythagore.html.twig', [
             'tableHtml' => $tableHtml,
-            'name' => 'AHOSSI ESther Merveille',
+            'name' => 'AHOSSI ESther',
         ]);
     }
 }
