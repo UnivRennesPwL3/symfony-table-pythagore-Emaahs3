@@ -1,4 +1,38 @@
 {% extends 'base.html.twig' %}
 
-{% block content %} {{ htmlResponse }} {% endblock %}
+{% block css %}
+	<style>
+		table {
+			margin: auto;
+			border-collapse: collapse;
+		}
 
+		h1 {
+			text-align: center;
+		}
+
+		h6 {
+			text-decoration: underline
+		}
+
+
+		td {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+		}
+
+		td:first-child {
+			background-color: ;
+		}
+
+		td:nth-child(2) {
+			background-color: ;
+		}
+	</style>
+{% endblock %}
+{% block content %}
+	<H1>AHOSSI Esther</H1>
+	{{ tableHtml|raw }}
+
+{% endblock %}
